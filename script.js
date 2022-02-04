@@ -1,7 +1,7 @@
 imgSlider = (img) => {
-    document.querySelector('.starbucks').src = img
+    document.getElementById('starbucks').src = img
 }
 
 changeCircleColor = (color) => {
-    document.querySelector('.circle').style.background = color
+    document.getElementById('circle').style.background = color
 }

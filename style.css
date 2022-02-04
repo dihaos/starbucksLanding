@@ -59,7 +59,7 @@ header li a{
 
 .textBox{
     position: relative;
-    max-width: 600px;
+    max-width: 650px;
 }
 
 .textBox h2{
@@ -155,7 +155,7 @@ header li a{
     transform:scale(0.8);
 }
 
-.circle{
+#circle{
     position: absolute;
     top: 0;
     left: 0;

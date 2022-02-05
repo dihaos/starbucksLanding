@@ -1,7 +1,8 @@
-imgSlider = (img) => {
-    document.getElementById('starbucks').src = img
-}
+const coffee = document.querySelector('.thumb')
 
-changeCircleColor = (color) => {
-    document.getElementById('circle').style.background = color
+coffee.onmouseover = (e) => {
+    if (e.target.src) {
+        document.getElementById('starbucks').src = e.target.src
+        document.getElementById('circle').style.background = e.target.id
+    }
 }
